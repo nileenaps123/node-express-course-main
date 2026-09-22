@@ -13,7 +13,7 @@ const jobSchema=new mongoose.Schema({
     status:{
         type:String,
         enum:['pending','declined','interview'],
-        defaukt:'pending'
+        default:'pending'
     },
     createdBy:{
         type:mongoose.Schema.Types.ObjectId,
